@@ -1,0 +1,71 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+nav{
+  width: 100%;
+  background-color: #262626;
+  overflow: hidden;
+  position: fixed;
+  top: 0; 
+}
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li{
+  float: left;
+}
+a{
+  padding: 20px; 
+  width: 100px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#Home{
+  height: 700px;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: top center;
+  display: inline-block;
+  width: 100%;
+}
+#Blog{
+  height: 700px;
+  background: burlywood;
+  display: inline-block;
+  width: 100%;
+}
+#Contact{
+  height: 700px;
+  background: oldlace;
+  display: inline-block;
+  width: 100%;
+}
+h1{
+  margin: 100px;
+  text-align: center;
+  padding: 0;
+}
+p{
+  text-align: left;
+  margin: 20px 25px 40px;
+  font-family: sans-serif;
+  font-size: 19px;
+}
+h2{
+  margin: 75px;
+  text-align: left;
+  padding: 0;
+  font-weight: bold;
+  font-family: fantasy;
+  color: antiquewhite;
+}
